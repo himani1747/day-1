@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Multi-level Navigation Bar-->
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">Blog</a>
+                <ul class="dropdown">
+                    <li><a href="blog-list.html">All Posts</a></li>
+                    <li><a href="#">Categories</a>
+                       <ul class="dropdown">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">CSS Tips</a></li>
+                 
+                       </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">About</a>
+                <ul class="dropdown">
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </li>
+              
+        </ul>
+    </nav>
+    <!--Home Section-->
+    <section id="latest-posts">
+        <h1>Welcome to my Blog</h1>
+        <p>Here's the latest blog posts:</p>
+        <article>
+           <h2><a href="blog1.html">The future of web development</a></h2>
+          <p> A brief look into the evolving trends in web development and what to expect in the coming years....</p>
+            <a href="blog1.html">Read More</a>
+        </article>
+    </section>  
+</body>
+</html>
